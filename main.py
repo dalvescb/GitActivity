@@ -1,6 +1,8 @@
+import hello
+
 def main():
-    print("Hello")
-    print("World")
+    hello.print_hello()
+    hello.print_world()
 
 if __name__ == "__main__":
     main()
